@@ -1,0 +1,30 @@
+// основные стили
+@import "_main";
+// миксины
+@import "_mixins";
+// переменные
+@import "_vars";
+// шрифт
+@import "fonts";
+// шапка
+@import "_header";
+// первый блок
+@import "_intro";
+
+@import "_desing__cards";
+
+@import "_brands";
+
+@import "_slider";
+
+@import "_advantage";
+
+@import "_preference";
+
+@import "_our__work";
+
+@import "_overflow";
+
+@import "_stock";
+// футер
+@import "_footer";

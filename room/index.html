@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="We've developed a series of purpose-built
+    rooms that offer companies looking for change an affordable, sustainable,
+    and flexible alternative to fixed construction and traditional office
+    design."
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="stylesheet" href="css/style.min.css" />
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <title>Room</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__top">
+          <div class="header__top__main">
+            <div class="header__top__item">
+              <a href="#contant__sale"><span>Contact Sales</span></a>
+            </div>
+            <div class="header__top__item">
+              <span>TEL</span
+              ><a id="header__tel" href="tel:+6467913726"
+                ><span>646-791-3726</span></a
+              >
+            </div>
+            <div class="header__top__item">
+              <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">
+                  us
+                  <span
+                    ><svg
+                      width="14"
+                      height="7"
+                      viewBox="0 0 14 7"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0)">
+                        <g opacity="0.9">
+                          <g opacity="0.9">
+                            <g opacity="0.9">
+                              <g opacity="0.9">
+                                <g opacity="0.9">
+                                  <path
+                                    opacity="0.9"
+                                    d="M0.5 0.5L6.83334 6.21503"
+                                    stroke="#AAAAAA"
+                                    stroke-linecap="round"
+                                  />
+                                </g>
+                                <g opacity="0.9">
+                                  <path
+                                    opacity="0.9"
+                                    d="M13.5 0.5L7.16666 6.21503"
+                                    stroke="#AAAAAA"
+                                    stroke-linecap="round"
+                                  />
+                                </g>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0">
+                          <rect width="14" height="7" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                  <a href="#ru">ru</a>
+                  <a href="#ar">ar</a>
+                  <a href="#en">en</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header__info">
+          <div class="header__info__body">
+            <div class="header__info__body__logo">
+              <a href="#"><img src="img/logo.png" alt="" /></a>
+            </div>
+            <div class="header__info__body__nav">
+              <nav>
+                <ul>
+                  <a href="#products"><li>products</li></a>
+                  <a href="#explore"><li>explore</li></a>
+                  <a href="#shop"><li>shop</li></a>
+                </ul>
+              </nav>
+            </div>
+            <div class="header__info__body__shopcard">
+              <div class="map__item">
+                <a href="#map">
+                  <span>
+                    <svg
+                      width="20"
+                      height="24"
+                      viewBox="0 0 20 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M0.989563 9.1163C0.989563 4.0848 5.06298 0 10.0805 0C15.098 0 19.1714 4.0848 19.1714 9.1163C19.1714 12.7874 16.558 16.0916 14.3721 18.8531L10.5032 23.7875C10.2563 24.0381 9.9017 24.0993 9.66314 23.7941C9.24991 23.2667 8.83491 22.7227 8.41726 22.1752C7.55262 21.0419 6.67664 19.8936 5.78164 18.8465L5.78111 18.8459C3.59832 16.0844 0.989563 12.7841 0.989563 9.1163ZM18.1083 9.1163C18.1083 4.66637 14.518 1.06602 10.0805 1.06602C5.64293 1.06602 2.05261 4.66637 2.05261 9.1163C2.05261 12.4164 4.5344 15.5565 6.6107 18.1836L6.61151 18.1846C7.34004 19.1646 8.1177 20.1381 8.89153 21.1069C9.2913 21.6073 9.69005 22.1065 10.0805 22.6046L13.5435 18.1924L13.5451 18.1904C15.623 15.5623 18.1083 12.419 18.1083 9.1163Z"
+                        fill="black"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M6.18427 8.88907C6.18427 6.43807 8.12564 4.44434 10.513 4.44434C12.9003 4.44434 14.8423 6.43807 14.8423 8.88907C14.8423 11.3401 12.9003 13.3332 10.513 13.3332C8.12336 13.3332 6.18427 11.3424 6.18427 8.88907ZM13.8309 8.88907C13.8309 7.00454 12.3486 5.48267 10.513 5.48267C8.67796 5.48267 7.19563 7.00513 7.19563 8.88907C7.19563 10.7707 8.68024 12.2949 10.513 12.2949C12.348 12.2949 13.8309 10.7736 13.8309 8.88907Z"
+                        fill="black"
+                      />
+                    </svg> </span
+                  ><span>Showrooms</span></a
+                >
+              </div>
+              <div class="bag__item">
+                <a href="#bagshop">
+                  <svg
+                    width="25"
+                    height="25"
+                    viewBox="0 0 25 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M0.010376 0.729589C0.010376 1.13231 0.279912 1.45918 0.611998 1.45918H2.71255C3.47738 1.45918 4.11995 2.01361 4.36104 2.8956L7.54429 14.4759L5.73317 19.9671C5.57169 20.4546 5.87192 20.956 6.28987 20.9678H19.5375C19.8695 20.9678 20.1391 20.6409 20.1391 20.2381C20.1391 19.8354 19.8695 19.5086 19.5375 19.5086H7.17638L8.58775 15.2296H19.5375C19.8037 15.2296 20.0293 15.02 20.109 14.7297L23.8705 4.4658C24.0502 3.97274 23.7482 3.46037 23.3229 3.44245H5.77412L5.49833 2.43909C5.09459 0.966809 3.992 0 2.71255 0H0.611998C0.279912 0 0.010376 0.326866 0.010376 0.729589ZM8.61334 13.7705L6.17501 4.90162H22.4001L19.1496 13.7705H8.61334Z"
+                      fill="#1A1A1A"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M7.5268 21.7744C8.28172 21.7744 8.89326 22.4968 8.89326 23.3877C8.89326 24.2778 8.28172 25.0002 7.5268 25.0002C6.77188 25.0002 6.16034 24.2778 6.16034 23.3877C6.16034 22.4968 6.77188 21.7744 7.5268 21.7744Z"
+                      fill="#1A1A1A"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M18.4585 21.7744C19.2133 21.7744 19.8249 22.4968 19.8249 23.3877C19.8249 24.2778 19.2133 25.0002 18.4585 25.0002C17.7036 25.0002 17.092 24.2778 17.092 23.3877C17.092 22.4968 17.7036 21.7744 18.4585 21.7744Z"
+                      fill="#1A1A1A"
+                    /></svg
+                ></a>
+              </div>
+              <div class="header__burger">
+                <span></span>
+              </div>
+              <nav class="header__menu header__top">
+                <ul class="header__list">
+                  <a href="#" class="header__link"><li>contact sales</li></a>
+                  <li>
+                    <span class="ml-5">tel</span
+                    ><a href="tel:+6467913726" class="header__link"
+                      >646-791-3726</a
+                    >
+                  </li>
+                </ul>
+                <ul class="header__list">
+                  <a class="header__link" href="#products"><li>products</li></a>
+                  <a class="header__link" href="#explore"><li>explore</li></a>
+                  <a class="header__link" href="#shop"><li>shop</li></a>
+                </ul>
+                <ul class="header__list">
+                  <a href="#map"
+                    ><li>
+                      <span>Showrooms</span>
+                    </li></a
+                  >
+                  <li>
+                    <div class="bag__item__absolute">
+                      <a href="#bagshop">
+                        <svg
+                          width="25"
+                          height="25"
+                          viewBox="0 0 25 25"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M0.010376 0.729589C0.010376 1.13231 0.279912 1.45918 0.611998 1.45918H2.71255C3.47738 1.45918 4.11995 2.01361 4.36104 2.8956L7.54429 14.4759L5.73317 19.9671C5.57169 20.4546 5.87192 20.956 6.28987 20.9678H19.5375C19.8695 20.9678 20.1391 20.6409 20.1391 20.2381C20.1391 19.8354 19.8695 19.5086 19.5375 19.5086H7.17638L8.58775 15.2296H19.5375C19.8037 15.2296 20.0293 15.02 20.109 14.7297L23.8705 4.4658C24.0502 3.97274 23.7482 3.46037 23.3229 3.44245H5.77412L5.49833 2.43909C5.09459 0.966809 3.992 0 2.71255 0H0.611998C0.279912 0 0.010376 0.326866 0.010376 0.729589ZM8.61334 13.7705L6.17501 4.90162H22.4001L19.1496 13.7705H8.61334Z"
+                            fill="#1A1A1A"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M7.5268 21.7744C8.28172 21.7744 8.89326 22.4968 8.89326 23.3877C8.89326 24.2778 8.28172 25.0002 7.5268 25.0002C6.77188 25.0002 6.16034 24.2778 6.16034 23.3877C6.16034 22.4968 6.77188 21.7744 7.5268 21.7744Z"
+                            fill="#1A1A1A"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M18.4585 21.7744C19.2133 21.7744 19.8249 22.4968 19.8249 23.3877C19.8249 24.2778 19.2133 25.0002 18.4585 25.0002C17.7036 25.0002 17.092 24.2778 17.092 23.3877C17.092 22.4968 17.7036 21.7744 18.4585 21.7744Z"
+                            fill="#1A1A1A"
+                          /></svg
+                      ></a>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="intro">
+        <div class="intro__item__bg sm_container">
+          <img src="img/intro-big.jpg" alt="nightstairs" />
+        </div>
+        <div class="intro__item__info _container">
+          <div class="info__item__header">
+            <h2>Design that inspires a better way to work.</h2>
+          </div>
+          <div class="info__item__text">
+            <p>
+              We've developed a series of purpose-built rooms that offer
+              companies looking for change an affordable, sustainable, and
+              flexible alternative to fixed construction and traditional office
+              design.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="desing__card">
+        <div class="desing__card__wrapper card_container">
+          <div class="desing__card__items">
+            <div class="desing__card__item">
+              <a href="#">
+                <img src="img/desing-card-1.jpg" alt="card" />
+                <p>Phone Booth</p></a
+              >
+            </div>
+            <div class="desing__card__item">
+              <a href="#">
+                <img src="img/desing-card-2.jpg" alt="card" />
+                <p>Focus Room</p></a
+              >
+            </div>
+            <div class="desing__card__item">
+              <a href="#">
+                <img src="img/desing-card-3.jpg" alt="card" />
+                <p>veeting room</p></a
+              >
+            </div>
+            <div class="desing__card__item">
+              <a href="#">
+                <img src="img/desing-card-4.jpg" alt="card" />
+                <p>open meeeting room</p></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="brands">
+        <div class="brands__wrapper item_container">
+          <div class="brands__title">
+            <h3>The world's leading brands choose ROOM.</h3>
+            <p>Over 3,000 and counting.</p>
+          </div>
+          <div class="brands__imgs">
+            <div class="brands__img">
+              <a href="#"><img src="img/brands/nike.png" alt="" /></a>
+            </div>
+            <div class="brands__img">
+              <a href="#"><img src="img/brands/nasa.png" alt="" /></a>
+            </div>
+            <div class="brands__img">
+              <a href="#"><img src="img/brands/google.png" alt="" /></a>
+            </div>
+            <div class="brands__img">
+              <a href="#"><img src="img/brands/uber.png" alt="" /></a>
+            </div>
+            <div class="brands__img">
+              <a href="#"><img src="img/brands/walmart.png" alt="" /></a>
+            </div>
+            <div class="brands__img">
+              <a href="#"> <img src="img/brands/salesforse.png" alt="" /></a>
+            </div>
+            <div class="brands__img">
+              <a href="#"><img src="img/brands/hulu.png" alt="" /></a>
+            </div>
+            <div class="brands__img">
+              <a href="#"><img src="img/brands/reddit.png" alt="" /></a>
+            </div>
+            <div class="brands__img">
+              <a href="#"><img src="img/brands/knotel.png" alt="" /></a>
+            </div>
+            <div class="brands__img">
+              <a href="#"><img src="img/brands/samsung.png" alt="" /></a>
+            </div>
+            <div class="brands__img">
+              <a href="#"><img src="img/brands/amazon.png" alt="" /></a>
+            </div>
+            <div class="brands__img">
+              <a href="#"> <img src="img/brands/angelList.png" alt="" /></a>
+            </div>
+            <div class="brands__img">
+              <a href="#"> <img src="img/brands/buzzfeed.png" alt="" /></a>
+            </div>
+            <div class="brands__img">
+              <a href="#"><img src="img/brands/apple.png" alt="" /></a>
+            </div>
+            <div class="brands__img">
+              <a href="#"><img src="img/brands/harry's.png" alt="" /></a>
+            </div>
+            <div class="brands__img">
+              <a href="#"><img src="img/brands/asana.png" alt="" /></a>
+            </div>
+            <div class="brands__img">
+              <a href="#"><img src="img/brands/morgan.png" alt="" /></a>
+            </div>
+            <div class="brands__img">
+              <a href="#"> <img src="img/brands/green-peace.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="slider">
+        <div class="slider__item">
+          <img src="img/slider-big-1.jpg" alt="" />
+        </div>
+        <div class="slider__item">
+          <img src="img/slider-big-2.jpg" alt="" />
+        </div>
+        <div class="slider__item">
+          <img src="img/slider-big-3.jpg" alt="" />
+        </div>
+      </section>
+      <section class="advantage item_container">
+        <div class="advantage__header">
+          <h2>
+            Our simple and seamless modular products allow teams to shape and
+            then reshape their work environment with ease.
+          </h2>
+          <a href="#">get in touch</a>
+        </div>
+        <div class="advantage__items">
+          <div class="advantage__item">
+            <img src="img/cost-eff-1.png" alt="cost-effective" />
+            <div class="advantage__item__text">
+              <h4>cost-effective</h4>
+              <p>
+                At a fraction of the cost of traditional construction, our
+                pre-fab solutions create additional space for focused work and
+                collaboration without constant noise, debris and distraction.
+              </p>
+            </div>
+          </div>
+          <div class="advantage__item">
+            <img src="img/sec.png" alt="sec" />
+            <div class="advantage__item__text">
+              <h4>time saving</h4>
+              <p>
+                Thoughtful design ensures simple installation in a few hours or
+                less. And, because our products are safety ensured, you'll never
+                have to spend time or money chasing after permits, contractors,
+                and more.
+              </p>
+            </div>
+          </div>
+          <div class="advantage__item">
+            <img src="img/flexible.png" alt="flexible" />
+            <div class="advantage__item__text">
+              <h4>flexible</h4>
+              <p>
+                Unlike traditional construction, our purpose-built products were
+                designed to adapt with your workspace and can easily be
+                positioned in various places throughout your office, or to an
+                entirely new location.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="preference sm_container">
+        <div class="preference__wrapper">
+          <div class="preference__comments">
+            <div class="preference__comment">
+              <img src="img/stars.png" alt="stars" />
+              <p>“We can now have meetings in peace.”</p>
+              <img src="img/preference-comment-1.png" alt="google" />
+            </div>
+            <div class="preference__comment">
+              <img src="img/stars.png" alt="stars" />
+              <p>“Amazing private space to get work done.”</p>
+              <img src="img/preference-comment-2.png" alt="wayfair" />
+            </div>
+            <div class="preference__comment">
+              <img src="img/stars.png" alt="stars" />
+              <p>“Our booths are in constant use.”</p>
+              <img src="img/preference-comment-3.png" alt="flexport" />
+            </div>
+            <a href="#read__more" class="read__more">READ MORE REVIEWS</a>
+          </div>
+        </div>
+      </section>
+      <section class="out__work">
+        <div class="out__work__wrapper">
+          <div class="out__work__info item_container">
+            <h2>
+              We take a human approach to a business-to-business industry,
+              breaking the boundaries between corporate and personal, and
+              rethinking every step of the user experience along the way.
+            </h2>
+            <p>We make work, work for you.</p>
+          </div>
+          <div class="out__work__items _container">
+            <div class="out__work__item">
+              <div class="out__work__item__img">
+                <img src="img/work-item-1-1.jpg" alt="" />
+              </div>
+              <div class="out__work__item__info">
+                <div class="info__text">
+                  <h2>We sell direct.</h2>
+                  <p>
+                    We make extra room in the budget without compromising
+                    quality by selling direct. No middle man, and no additional
+                    construction required.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="out__work__item">
+              <div class="out__work__item__info">
+                <div class="info__text">
+                  <h2>We build with purpose.</h2>
+                  <p>
+                    We’re not just building another room with four walls, we’re
+                    building a more productive workspace. We design with you in
+                    mind, looking at every detail as an opportunity to enable a
+                    better working environment for everyone.
+                  </p>
+                </div>
+              </div>
+              <div class="out__work__item__img">
+                <img src="img/work-item-1-2.jpg" alt="" />
+              </div>
+            </div>
+            <div class="out__work__item">
+              <div class="out__work__item__img">
+                <img src="img/work-item-1-3.jpg" alt="" />
+              </div>
+              <div class="out__work__item__info">
+                <div class="info__text">
+                  <h2>We design sustainably.</h2>
+                  <p>
+                    From design to delivery, we strive to lessen our impact on
+                    the environment. Our products are engineered with recycled
+                    materials and replace multiple cycles of construction,
+                    minimizing noise and our footprint.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="overflow">
+        <div class="overflow__item">
+          <img src="img/slider-footer-1.jpg" alt="" />
+        </div>
+        <div class="overflow__item">
+          <img src="img/slider-big-2.jpg" alt="" />
+        </div>
+        <div class="overflow__item">
+          <img src="img/slider-big-3.jpg" alt="" />
+        </div>
+      </section>
+      <section class="stock _container">
+        <div class="stock__block">
+          <div class="stock__block__item">
+            <h2>100 day risk-free trial</h2>
+          </div>
+          <div class="stock__block__item">
+            <div class="stock__block__item__pref">
+              <div class="pref__item">
+                <img src="img/stock-item-1.png" alt="" />
+                <h3>FREE SHIPPING</h3>
+              </div>
+              <div class="pref__item">
+                <img src="img/stock-item-2.png" alt="" />
+                <h3>PLUG & PLAY</h3>
+              </div>
+              <div class="pref__item">
+                <img src="img/stock-item-3.png" alt="" />
+                <h3>FREE RETURNS</h3>
+              </div>
+            </div>
+          </div>
+          <div class="stock__block__item">
+            <a href="#getaroom" class="button__a" type="button">GET A ROOM</a>
+            <a href="#" class="tearms__a"
+              ><span>Terms & Conditions apply</span></a
+            >
+          </div>
+        </div>
+      </section>
+      <footer>
+        <section id="down">
+          <div class="footer__items _container">
+            <div class="footer__item">
+              <div class="footer__item__logo">
+                <a href="#"><img src="img/logo-white.png" alt="ROOM" /></a>
+              </div>
+            </div>
+            <div class="footer__item">
+              <div class="footer__item__nav">
+                <nav>
+                  <div class="nav__uls">
+                    <ul>
+                      <h5>About</h5>
+                      <a href="#compare"><li>compare</li></a>
+                      <a href="#reviews"><li>reviews</li></a>
+                      <a href="#trial"><li>Risk-Free Trial</li></a>
+                      <a href="#careers"><li>careers</li></a>
+                      <a href="#press"><li>press</li></a>
+                      <a href="#podcast"><li>podcast</li></a>
+                      <a href="#blog"><li>blog</li></a>
+                    </ul>
+                    <div class="navigaonusing">
+                      <div class="gaonutosal">
+                        <div class="pesontedan">
+                          <input
+                            id="pesontedan-one"
+                            type="checkbox"
+                            name="pesontedans"
+                          />
+                          <label for="pesontedan-one"
+                            ><span class="ul__h5">About</span>
+                            <span
+                              ><svg
+                                width="14"
+                                height="7"
+                                viewBox="0 0 14 7"
+                                fill="#fff"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clip-path="url(#clip0)">
+                                  <g opacity="0.9">
+                                    <g opacity="0.9">
+                                      <g opacity="0.9">
+                                        <g opacity="0.9">
+                                          <g opacity="0.9">
+                                            <path
+                                              opacity="0.9"
+                                              d="M0.5 0.5L6.83334 6.21503"
+                                              stroke="#AAAAAA"
+                                              stroke-linecap="round"
+                                            />
+                                          </g>
+                                          <g opacity="0.9">
+                                            <path
+                                              opacity="0.9"
+                                              d="M13.5 0.5L7.16666 6.21503"
+                                              stroke="#AAAAAA"
+                                              stroke-linecap="round"
+                                            />
+                                          </g>
+                                        </g>
+                                      </g>
+                                    </g>
+                                  </g>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0">
+                                    <rect width="14" height="7" fill="white" />
+                                  </clipPath>
+                                </defs></svg></span
+                          ></label>
+                          <div class="pesontedan-content">
+                            <a href="#compare"><li>compare</li></a>
+                            <a href="#reviews"><li>reviews</li></a>
+                            <a href="#trial"><li>Risk-Free Trial</li></a>
+                            <a href="#careers"><li>careers</li></a>
+                            <a href="#press"><li>press</li></a>
+                            <a href="#podcast"><li>podcast</li></a>
+                            <a href="#blog"><li>blog</li></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <ul>
+                      <h5>Showrooms</h5>
+                      <a href="#ny"><li>New York</li></a>
+                      <a href="#london"><li>london</li></a>
+                      <a href="#sf"><li>San Francisco</li></a>
+                      <a href="#paris"><li>Paris</li></a>
+                      <a href="#copenhagen"><li>Copenhagen</li></a>
+                      <a href="#zürich"><li>Zürich</li></a>
+                      <a href="#la"><li>Los Angeles</li></a>
+                      <a href="#berlin"><li>berlin</li></a>
+                      <a href="#belgium"><li>Belgium</li></a>
+                      <a href="#demo"><li>Virtual Demo</li></a>
+                    </ul>
+                    <div class="navigaonusing-2">
+                      <div class="gaonutosal-2">
+                        <div class="pesontedan-2">
+                          <input
+                            id="pesontedan-one-2"
+                            type="checkbox"
+                            name="pesontedans-2"
+                          />
+                          <label for="pesontedan-one-2"
+                            ><span class="ul__h5">Showrooms</span>
+                            <span
+                              ><svg
+                                width="14"
+                                height="7"
+                                viewBox="0 0 14 7"
+                                fill="#fff"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clip-path="url(#clip0)">
+                                  <g opacity="0.9">
+                                    <g opacity="0.9">
+                                      <g opacity="0.9">
+                                        <g opacity="0.9">
+                                          <g opacity="0.9">
+                                            <path
+                                              opacity="0.9"
+                                              d="M0.5 0.5L6.83334 6.21503"
+                                              stroke="#AAAAAA"
+                                              stroke-linecap="round"
+                                            />
+                                          </g>
+                                          <g opacity="0.9">
+                                            <path
+                                              opacity="0.9"
+                                              d="M13.5 0.5L7.16666 6.21503"
+                                              stroke="#AAAAAA"
+                                              stroke-linecap="round"
+                                            />
+                                          </g>
+                                        </g>
+                                      </g>
+                                    </g>
+                                  </g>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0">
+                                    <rect width="14" height="7" fill="white" />
+                                  </clipPath>
+                                </defs></svg></span
+                          ></label>
+                          <div class="pesontedan-content-2">
+                            <a href="#ny"><li>New York</li></a>
+                            <a href="#london"><li>london</li></a>
+                            <a href="#sf"><li>San Francisco</li></a>
+                            <a href="#paris"><li>Paris</li></a>
+                            <a href="#copenhagen"><li>Copenhagen</li></a>
+                            <a href="#zürich"><li>Zürich</li></a>
+                            <a href="#la"><li>Los Angeles</li></a>
+                            <a href="#berlin"><li>berlin</li></a>
+                            <a href="#belgium"><li>Belgium</li></a>
+                            <a href="#demo"><li>Virtual Demo</li></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nav__uls">
+                    <ul>
+                      <h5>Support</h5>
+                      <a href="#faq"><li>FAQ</li></a>
+                      <a href="#booth_assembly"><li>Booth Assembly</li></a>
+                      <a href="#delivery"><li>delivery</li></a>
+                      <a href="#room_service"><li>room service</li></a>
+                      <a href="#warranty"><li>warranty</li></a>
+                      <a href="#terms_of_use"><li>Terms of Use</li></a>
+                      <a href="#privacy_policy"><li>Privacy Policy</li></a>
+                      <a href="#copyright"><li>Copyright</li></a>
+                    </ul>
+                    <div class="navigaonusing-3">
+                      <div class="gaonutosal-3">
+                        <div class="pesontedan-3">
+                          <input
+                            id="pesontedan-one-3"
+                            type="checkbox"
+                            name="pesontedans-3"
+                          />
+                          <label for="pesontedan-one-3"
+                            ><span class="ul__h5">Support</span>
+                            <span
+                              ><svg
+                                width="14"
+                                height="7"
+                                viewBox="0 0 14 7"
+                                fill="#fff"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clip-path="url(#clip0)">
+                                  <g opacity="0.9">
+                                    <g opacity="0.9">
+                                      <g opacity="0.9">
+                                        <g opacity="0.9">
+                                          <g opacity="0.9">
+                                            <path
+                                              opacity="0.9"
+                                              d="M0.5 0.5L6.83334 6.21503"
+                                              stroke="#AAAAAA"
+                                              stroke-linecap="round"
+                                            />
+                                          </g>
+                                          <g opacity="0.9">
+                                            <path
+                                              opacity="0.9"
+                                              d="M13.5 0.5L7.16666 6.21503"
+                                              stroke="#AAAAAA"
+                                              stroke-linecap="round"
+                                            />
+                                          </g>
+                                        </g>
+                                      </g>
+                                    </g>
+                                  </g>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0">
+                                    <rect width="14" height="7" fill="white" />
+                                  </clipPath>
+                                </defs></svg></span
+                          ></label>
+                          <div class="pesontedan-content-3">
+                            <a href="#faq"><li>FAQ</li></a>
+                            <a href="#booth_assembly"
+                              ><li>Booth Assembly</li></a
+                            >
+                            <a href="#delivery"><li>delivery</li></a>
+                            <a href="#room_service"><li>room service</li></a>
+                            <a href="#warranty"><li>warranty</li></a>
+                            <a href="#terms_of_use"><li>Terms of Use</li></a>
+                            <a href="#privacy_policy"
+                              ><li>Privacy Policy</li></a
+                            >
+                            <a href="#copyright"><li>Copyright</li></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <ul>
+                      <h5>Office</h5>
+                      <li>599 Broadway, FL 9 New York, NY 10012</li>
+                    </ul>
+                    <div class="navigaonusing-4">
+                      <div class="gaonutosal-4">
+                        <div class="pesontedan-4">
+                          <input
+                            id="pesontedan-one-4"
+                            type="checkbox"
+                            name="pesontedans-4"
+                          />
+                          <label for="pesontedan-one-4"
+                            ><span class="ul__h5">Office</span>
+                            <span
+                              ><svg
+                                width="14"
+                                height="7"
+                                viewBox="0 0 14 7"
+                                fill="#fff"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clip-path="url(#clip0)">
+                                  <g opacity="0.9">
+                                    <g opacity="0.9">
+                                      <g opacity="0.9">
+                                        <g opacity="0.9">
+                                          <g opacity="0.9">
+                                            <path
+                                              opacity="0.9"
+                                              d="M0.5 0.5L6.83334 6.21503"
+                                              stroke="#AAAAAA"
+                                              stroke-linecap="round"
+                                            />
+                                          </g>
+                                          <g opacity="0.9">
+                                            <path
+                                              opacity="0.9"
+                                              d="M13.5 0.5L7.16666 6.21503"
+                                              stroke="#AAAAAA"
+                                              stroke-linecap="round"
+                                            />
+                                          </g>
+                                        </g>
+                                      </g>
+                                    </g>
+                                  </g>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0">
+                                    <rect width="14" height="7" fill="white" />
+                                  </clipPath>
+                                </defs></svg></span
+                          ></label>
+                          <div class="pesontedan-content-4">
+                            <span>599 Broadway, FL 9 New York, NY 10012</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+    </div>
+    <script src="js/script.min.js"></script>
+  </body>
+</html>
